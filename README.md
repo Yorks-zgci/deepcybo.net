@@ -1,6 +1,6 @@
 # DeepCybo 官方静态站点（GitHub Pages）
 
-本仓库包含北京机智赛博智能科技有限公司（DeepCybo）的企业静态页面，适配 GitHub Pages 与自定义域名 `deepcybo.net`。
+本仓库包含北京机智赛博智能科技有限公司（DeepCybo）的企业静态页面，适配 GitHub Pages 与自定义域名 `deepcybo.site`。
 
 ## 目录结构
 - `index.html`：主页
@@ -23,16 +23,16 @@ python3 -m http.server 5500
    ```bash
    git init
    git add .
-   git commit -m "init: deepcybo.net static site"
+   git commit -m "init: deepcybo.site static site"
    git branch -M main
-   git remote add origin git@github.com:<your-account>/deepcybo.net.git
+   git remote add origin git@github.com:<your-account>/deepcybo.site.git
    git push -u origin main
    ```
 2. 在 GitHub 仓库设置中开启 Pages：
    - Settings → Pages → Branch 选择 `main` 分支 `/ (root)` → Save。
 3. 自定义域名（可选，已提供 `CNAME`）：
    - DNS 添加 A 记录指向：`185.199.108.153`、`185.199.109.153`、`185.199.110.153`、`185.199.111.153`
-   - 或添加 `CNAME` 记录：`deepcybo.net` → `<your-account>.github.io`
+   - 或添加 `CNAME` 记录：`deepcybo.site` → `<your-account>.github.io`
    - 勾选 Enforce HTTPS，等待证书颁发。
 
 ## 修改站点基础信息
